@@ -4,5 +4,5 @@ const app = express();
 app.use(express.static(__dirname + '/dist/dr_detector'));
 app.get('/*', function(req,res) {
 res.sendFile(path.join(__dirname+
-'/dist/dr_detector/src/index.html'));});
+'/dist/dr_detector/index.html'));});
 app.listen(process.env.PORT || 8080);
