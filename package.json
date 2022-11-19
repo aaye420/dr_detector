@@ -1,6 +1,6 @@
 {
   "heroku-postbuild": "ng build — prod", 
-  "name": "interface",
+  "name": "dr_detector",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
