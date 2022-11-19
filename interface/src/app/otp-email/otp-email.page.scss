@@ -1,0 +1,83 @@
+.ion-content {
+  --background: url(../../assets/images/dr3.jpg) 0 0/100% 100% no-repeat !important;
+  background-color: #fff;
+}
+
+.inputs {
+  color: rgba(0, 0, 0, 0.6);
+  margin: auto;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login-button {
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20;
+  margin: auto;
+  width: 100%;
+  --background: #4E84AB;
+  --border-radius: 10px;
+  --box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  // padding-right: 30px;
+  // padding-left: 30px;
+}
+
+.inputs2 {
+  border-radius: 15px;
+  text-align: left;
+  background-color:#FFFFFF;
+  margin: auto;
+  width: 100%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content {
+  color: #4E84AB;
+  text-align: left;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.options1 {
+  display: inline;
+  color: #4a2a34;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  float: left;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px rgba(74, 42, 52, 0.5);
+}
+
+.options2 {
+  display: inline;
+  color: rgba(74, 42, 52, 0.56);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  float: right;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px rgba(74, 42, 52, 0.5);
+}
+
+.card {
+  border-radius: 35px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ion-padding {
+  --ion-padding: 40px;
+}
+
+
+.check {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  display: inline;
+}
