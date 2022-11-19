@@ -1,20 +1,24 @@
 {
+  "heroku-postbuild": "ng build — prod", 
   "name": "interface",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "engines": { "node": "14.17.1", "npm": "6.14.13" },
   "private": true,
   "dependencies": {
     "@angular/common": "~13.2.2",
     "@angular/core": "~13.2.2",
+    "@angular/cli": "~13.2.3",
+    "@angular/compiler-cli": "~13.2.2",
     "@angular/forms": "~13.2.2",
     "@angular/platform-browser": "~13.2.2",
     "@angular/platform-browser-dynamic": "~13.2.2",
@@ -27,6 +31,7 @@
     "@ionic/angular": "^6.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
+    "typescript": "~4.4.4",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
